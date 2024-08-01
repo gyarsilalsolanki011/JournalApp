@@ -20,16 +20,9 @@ public class UserService {
         userRepository.save(userEntry);
     }
 
-    public List<User> grtAllUsers() {
-        return userRepository.findAll();
-    }
-
-    public Optional<User> findById(ObjectId id) {
-        return  userRepository.findById(id);
-    }
-
-    public void deleteById(ObjectId id) {
-        userRepository.deleteById(id);
+    public void deleteUser(String username) {
+        User user = userRepository.findByUserName(username);
+        userRepository.delete(user);
     }
 
     public User findByUserName(String userName) {

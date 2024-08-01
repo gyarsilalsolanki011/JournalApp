@@ -35,4 +35,10 @@ public class UserController {
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
+    @DeleteMapping("{userName}")
+    public boolean deleteUser(@PathVariable String userName) {
+        userService.deleteUser(userName);
+        return true;
+    }
+
 }

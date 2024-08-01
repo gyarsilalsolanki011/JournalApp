@@ -27,6 +27,7 @@ public class JournalEntryService {
         journalEntryRepository.save(journalEntry);
     }
 
+    @Transactional
     public void saveEntry(JournalEntry journalEntry, String userName){
         User user = userService.findByUserName(userName);
         journalEntry.setDate(LocalDateTime.now());
@@ -39,6 +40,7 @@ public class JournalEntryService {
         return journalEntryRepository.findById(id);
     }
 
+    @Transactional
     public void deleteById(ObjectId id, String userName){
         User user = userService.findByUserName(userName);
         user.getJournalEntries().removeIf(journalEntry -> journalEntry.getId().equals(id));
