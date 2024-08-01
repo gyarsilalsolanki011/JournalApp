@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/public")
 public class PublicController {
+
     @Autowired
     private UserService userService;
 
     @GetMapping("/health-check")
     public String healthCheck(){
-        return "ok";
+        return "You are Healthy";
     }
 
     @PostMapping("/create-user")

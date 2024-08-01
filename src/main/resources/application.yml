@@ -3,7 +3,7 @@ spring:
     mongodb:
       port: 27017
       host: localhost
-      database: MyDatabase
+      database: myDatabase
 
 server:
   port: 8080
