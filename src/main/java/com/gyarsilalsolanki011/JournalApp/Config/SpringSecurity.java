@@ -30,7 +30,6 @@ public class SpringSecurity {
                 .httpBasic(Customizer.withDefaults())
                 .csrf(AbstractHttpConfigurer::disable)
                 .build();
-
     }
 
     @Autowired
