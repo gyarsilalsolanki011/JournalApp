@@ -5,5 +5,13 @@ spring:
       host: localhost
       database: myDatabase
 
+  security:
+    user:
+      name: gsl
+      password: gsl@2000
+
+  main:
+    allow-circular-references: true
+
 server:
   port: 8080
