@@ -45,4 +45,18 @@ public class UserService {
     public List<User> grtAllUsers() {
         return userRepository.findAll();
     }
+
+
+
+    //for testing purpose Bean Created
+    public boolean saveNewUser(User userEntry) {
+        try {
+            userEntry.setPassword(passwordEncoder.encode(userEntry.getPassword()));
+            userEntry.setRoles(List.of("USER"));
+            userRepository.save(userEntry);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
 }
