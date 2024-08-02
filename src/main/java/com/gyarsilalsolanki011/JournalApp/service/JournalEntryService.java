@@ -31,7 +31,7 @@ public class JournalEntryService {
         journalEntry.setDate(LocalDateTime.now());
         JournalEntry saved = journalEntryRepository.save(journalEntry);
         user.getJournalEntries().add(saved);
-        userService.saveEntry(user);
+        userService.saveUser(user);
     }
 
     public Optional<JournalEntry> findById(ObjectId id){
@@ -43,7 +43,7 @@ public class JournalEntryService {
             User user = userService.findByUserName(userName);
             boolean removed = user.getJournalEntries().removeIf(journalEntry -> journalEntry.getId().equals(id));
             if (removed) {
-                userService.saveEntry(user);
+                userService.saveUser(user);
                 journalEntryRepository.deleteById(id);
             }
         } catch (Exception e) {
