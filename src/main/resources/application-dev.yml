@@ -20,3 +20,7 @@ logging:
     com:
       gyarsilalsolanki011:
         JournalApp: DEBUG
+
+weather:
+  api:
+    key: d4b565e178d6c7d57dca471270563602
