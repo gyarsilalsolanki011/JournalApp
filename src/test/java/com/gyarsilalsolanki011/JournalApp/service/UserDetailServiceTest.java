@@ -1,12 +1,10 @@
-package com.gyarsilalsolanki011.JournalApp.Service;
+package com.gyarsilalsolanki011.JournalApp.service;
 
-import com.gyarsilalsolanki011.JournalApp.Entity.User;
+import com.gyarsilalsolanki011.JournalApp.entity.User;
 import com.gyarsilalsolanki011.JournalApp.repository.UserRepository;
-import com.gyarsilalsolanki011.JournalApp.service.UserDetailService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.ArgumentMatchers;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;

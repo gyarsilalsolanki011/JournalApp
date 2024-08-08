@@ -1,7 +1,7 @@
-package com.gyarsilalsolanki011.JournalApp.Controller;
+package com.gyarsilalsolanki011.JournalApp.controller;
 
-import com.gyarsilalsolanki011.JournalApp.Api.Response.WeatherResponse;
-import com.gyarsilalsolanki011.JournalApp.Entity.User;
+import com.gyarsilalsolanki011.JournalApp.rpi.response.WeatherResponse;
+import com.gyarsilalsolanki011.JournalApp.entity.User;
 import com.gyarsilalsolanki011.JournalApp.service.UserService;
 import com.gyarsilalsolanki011.JournalApp.service.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;

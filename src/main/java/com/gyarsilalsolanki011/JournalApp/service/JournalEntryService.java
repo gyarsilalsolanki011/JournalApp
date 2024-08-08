@@ -1,7 +1,7 @@
 package com.gyarsilalsolanki011.JournalApp.service;
 
-import com.gyarsilalsolanki011.JournalApp.Entity.JournalEntry;
-import com.gyarsilalsolanki011.JournalApp.Entity.User;
+import com.gyarsilalsolanki011.JournalApp.entity.JournalEntry;
+import com.gyarsilalsolanki011.JournalApp.entity.User;
 import com.gyarsilalsolanki011.JournalApp.repository.JournalEntryRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;

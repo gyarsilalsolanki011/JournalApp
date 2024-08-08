@@ -1,4 +1,4 @@
-package com.gyarsilalsolanki011.JournalApp.Entity;
+package com.gyarsilalsolanki011.JournalApp.entity;
 
 import lombok.*;
 import org.bson.types.ObjectId;

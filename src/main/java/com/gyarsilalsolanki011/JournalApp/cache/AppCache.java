@@ -1,6 +1,6 @@
-package com.gyarsilalsolanki011.JournalApp.Cache;
+package com.gyarsilalsolanki011.JournalApp.cache;
 
-import com.gyarsilalsolanki011.JournalApp.Entity.ConfigJournalAppEntity;
+import com.gyarsilalsolanki011.JournalApp.entity.ConfigJournalAppEntity;
 import com.gyarsilalsolanki011.JournalApp.repository.ConfigJournalAppRepository;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;

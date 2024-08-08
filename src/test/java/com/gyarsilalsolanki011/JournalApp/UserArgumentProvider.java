@@ -1,6 +1,6 @@
 package com.gyarsilalsolanki011.JournalApp;
 
-import com.gyarsilalsolanki011.JournalApp.Entity.User;
+import com.gyarsilalsolanki011.JournalApp.entity.User;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.ArgumentsProvider;

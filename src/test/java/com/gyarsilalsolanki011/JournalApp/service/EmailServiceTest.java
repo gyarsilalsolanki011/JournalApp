@@ -1,6 +1,5 @@
-package com.gyarsilalsolanki011.JournalApp.Service;
+package com.gyarsilalsolanki011.JournalApp.service;
 
-import com.gyarsilalsolanki011.JournalApp.service.EmailService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,7 +12,7 @@ public class EmailServiceTest {
 
     @Test
     void testSendEmail() {
-        emailService.sendEmail("gyarsilalsolanki011@gmail.com",
+        emailService.sendEmail("gslofficial39@gmail.com",
                 "Hello World",
                 "How are you?");
     }

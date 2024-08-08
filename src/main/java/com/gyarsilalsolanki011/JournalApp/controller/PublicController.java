@@ -1,6 +1,6 @@
-package com.gyarsilalsolanki011.JournalApp.Controller;
+package com.gyarsilalsolanki011.JournalApp.controller;
 
-import com.gyarsilalsolanki011.JournalApp.Entity.User;
+import com.gyarsilalsolanki011.JournalApp.entity.User;
 import com.gyarsilalsolanki011.JournalApp.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

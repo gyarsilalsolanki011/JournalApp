@@ -1,4 +1,4 @@
-package com.gyarsilalsolanki011.JournalApp.Config;
+package com.gyarsilalsolanki011.JournalApp.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

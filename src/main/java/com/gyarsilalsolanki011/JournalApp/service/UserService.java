@@ -1,6 +1,6 @@
 package com.gyarsilalsolanki011.JournalApp.service;
 
-import com.gyarsilalsolanki011.JournalApp.Entity.User;
+import com.gyarsilalsolanki011.JournalApp.entity.User;
 import com.gyarsilalsolanki011.JournalApp.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,6 @@ public class UserService {
     private static final PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 
     public void saveUser(User userEntry) {
-        userEntry.setRoles(List.of("USER"));
         userRepository.save(userEntry);
     }
 
@@ -54,7 +53,7 @@ public class UserService {
         return userRepository.findByUserName(userName);
     }
 
-    public List<User> grtAllUsers() {
+    public List<User> getAllUsers() {
         return userRepository.findAll();
     }
 

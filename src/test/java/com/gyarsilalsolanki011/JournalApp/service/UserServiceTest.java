@@ -1,8 +1,7 @@
-package com.gyarsilalsolanki011.JournalApp.Service;
+package com.gyarsilalsolanki011.JournalApp.service;
 
-import com.gyarsilalsolanki011.JournalApp.Entity.User;
+import com.gyarsilalsolanki011.JournalApp.entity.User;
 import com.gyarsilalsolanki011.JournalApp.UserArgumentProvider;
-import com.gyarsilalsolanki011.JournalApp.service.UserService;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

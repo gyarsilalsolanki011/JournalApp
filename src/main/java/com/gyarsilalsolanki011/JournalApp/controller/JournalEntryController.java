@@ -1,7 +1,7 @@
-package com.gyarsilalsolanki011.JournalApp.Controller;
+package com.gyarsilalsolanki011.JournalApp.controller;
 
-import com.gyarsilalsolanki011.JournalApp.Entity.JournalEntry;
-import com.gyarsilalsolanki011.JournalApp.Entity.User;
+import com.gyarsilalsolanki011.JournalApp.entity.JournalEntry;
+import com.gyarsilalsolanki011.JournalApp.entity.User;
 import com.gyarsilalsolanki011.JournalApp.service.JournalEntryService;
 import com.gyarsilalsolanki011.JournalApp.service.UserService;
 import org.bson.types.ObjectId;

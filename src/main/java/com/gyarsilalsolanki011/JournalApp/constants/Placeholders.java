@@ -1,4 +1,4 @@
-package com.gyarsilalsolanki011.JournalApp.Constatnts;
+package com.gyarsilalsolanki011.JournalApp.constants;
 
 public interface Placeholders {
     String API_KEY = "<api_key>";

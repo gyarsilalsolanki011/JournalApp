@@ -1,8 +1,8 @@
 package com.gyarsilalsolanki011.JournalApp.service;
 
-import com.gyarsilalsolanki011.JournalApp.Api.Response.WeatherResponse;
-import com.gyarsilalsolanki011.JournalApp.Cache.AppCache;
-import com.gyarsilalsolanki011.JournalApp.Constatnts.Placeholders;
+import com.gyarsilalsolanki011.JournalApp.rpi.response.WeatherResponse;
+import com.gyarsilalsolanki011.JournalApp.cache.AppCache;
+import com.gyarsilalsolanki011.JournalApp.constants.Placeholders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpMethod;

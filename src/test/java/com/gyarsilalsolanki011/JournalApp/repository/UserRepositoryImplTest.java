@@ -1,6 +1,5 @@
-package com.gyarsilalsolanki011.JournalApp.Repository;
+package com.gyarsilalsolanki011.JournalApp.repository;
 
-import com.gyarsilalsolanki011.JournalApp.repository.UserRepositoryImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
