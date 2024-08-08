@@ -22,7 +22,7 @@ public class UserServiceTest {
 
     @Test
     @Disabled
-    public void testAdd() {
+    void testAdd() {
         assertEquals(4, 2+2);
     }
 
@@ -34,7 +34,7 @@ public class UserServiceTest {
             "2,2,4",
             "4,4,8"
     })
-    public void testMultiply(int a, int b, int expected) {
+    void testMultiply(int a, int b, int expected) {
         assertEquals(expected, a*b);
     }
 
@@ -47,7 +47,7 @@ public class UserServiceTest {
             "Gsl",
             "Vipul"
     })
-    public void testFindByUserName(String name) {
+    void testFindByUserName(String name) {
         assertNotNull(userService.findByUserName(name));
     }
 
@@ -56,7 +56,7 @@ public class UserServiceTest {
     //ArgumentSource Tested
     @ParameterizedTest
     @ArgumentsSource(UserArgumentProvider.class)
-    public void testSaveNewUser(User user) {
+    void testSaveNewUser(User user) {
         assertTrue(userService.saveNewUser(user));
     }
 }

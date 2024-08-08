@@ -1,3 +1,14 @@
 spring:
   profiles:
     active: dev
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: gyarsilals305@gmail.com
+    password: Gyarsi@2000
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

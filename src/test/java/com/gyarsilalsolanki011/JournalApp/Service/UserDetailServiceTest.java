@@ -24,7 +24,7 @@ public class UserDetailServiceTest {
     private UserRepository userRepository;
 
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         MockitoAnnotations.initMocks(this);
     } //To overCome nullPoint Exception in userRepository
 
