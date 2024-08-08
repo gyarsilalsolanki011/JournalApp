@@ -4,7 +4,7 @@ My first Backend API project using java and Spring Boot.
 It is the Journal Entry Managing system build on MVC architecture. 
 This app contains all the feature of spring boot framwork such as follows:
 
-# Important Libraries used
+### Important Libraries used
 * *************************
 
 1) Mongo Transaction manager
@@ -19,7 +19,7 @@ This app contains all the feature of spring boot framwork such as follows:
 12) profiles
 13) curl(to run api with curl code) 
 
-# Important Templates 
+### Important Templates 
 *********************
 
 1) Mongo Template
