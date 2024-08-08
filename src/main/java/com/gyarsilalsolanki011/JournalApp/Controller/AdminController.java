@@ -1,7 +1,7 @@
-package com.gyarsilalsolanki011.JournalApp.Controller;
+package com.gyarsilalsolanki011.JournalApp.controller;
 
-import com.gyarsilalsolanki011.JournalApp.Cache.AppCache;
-import com.gyarsilalsolanki011.JournalApp.Entity.User;
+import com.gyarsilalsolanki011.JournalApp.cache.AppCache;
+import com.gyarsilalsolanki011.JournalApp.entity.User;
 import com.gyarsilalsolanki011.JournalApp.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -22,7 +22,7 @@ public class AdminController {
 
     @GetMapping("/all-users")
     public ResponseEntity<?> getAllUsers() {
-        List<User> all = userService.grtAllUsers();
+        List<User> all = userService.getAllUsers();
         if (all != null && !all.isEmpty()){
             return new ResponseEntity<>(all, HttpStatus.OK);
         }
