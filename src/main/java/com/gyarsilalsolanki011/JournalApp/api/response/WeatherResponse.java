@@ -1,4 +1,4 @@
-package com.gyarsilalsolanki011.JournalApp.rpi.response;
+package com.gyarsilalsolanki011.JournalApp.api.response;
 
 import lombok.Getter;
 import lombok.Setter;

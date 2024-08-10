@@ -1,6 +1,6 @@
 package com.gyarsilalsolanki011.JournalApp.controller;
 
-import com.gyarsilalsolanki011.JournalApp.rpi.response.WeatherResponse;
+import com.gyarsilalsolanki011.JournalApp.api.response.WeatherResponse;
 import com.gyarsilalsolanki011.JournalApp.entity.User;
 import com.gyarsilalsolanki011.JournalApp.service.UserService;
 import com.gyarsilalsolanki011.JournalApp.service.WeatherService;
