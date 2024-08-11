@@ -1,7 +1,7 @@
 ## Journal App
 My first Backend API project using java and Spring Boot.
 
-It is the Journal Entry Managing system build on MVC architecture. 
+It is the Journal Entry Managing system build on MVC architecture. In this journal App one can get His/her weekly sentiment that the entered in journal entry via gmail.
 This app contains all the feature of spring boot framwork such as follows:
 
 ### Important Libraries and tools used 
