@@ -2,7 +2,7 @@
 My first Backend API project using java and Spring Boot.
 
 It is the Journal Entry Managing system build on MVC architecture. In this journal App one can get His/her weekly sentiment via gmail that he\she entered in journal entry.
-the sentiment mailed is the analysed sentiment which occured most.</b>
+the sentiment mailed is the analyzed sentiment which occurred most.</b>
 This app contains all the feature of spring boot framwork such as follows:
 
 ### Important Libraries and tools used 
