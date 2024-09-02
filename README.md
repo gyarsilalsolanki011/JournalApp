@@ -28,6 +28,9 @@ This app contains all the feature of spring boot framwork such as follows:
 3) Kafka cloud - Confluent cloud
 4) Sonar cloud - Sonar
 
+### Try Out the application 👇👇
+🔗(Download Jar File) : [Java Jar which can runnable on Terminal having Java installed ](https://drive.google.com/file/d/1Phwbvb6g87DXghxqtTNddY2PrSzTbHbx/view?usp=drive_link)
+
 **************************************
 
 ### Reference Documentation
