@@ -3,6 +3,7 @@ package com.gyarsilalsolanki011.JournalApp.api.response;
 import lombok.Getter;
 import lombok.Setter;
 
+// Response Entity Class
 @Getter
 @Setter
 public class WeatherResponse {
