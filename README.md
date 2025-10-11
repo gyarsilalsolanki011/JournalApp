@@ -84,4 +84,4 @@ Every week, the system analyzes user journal entries, detects emotional tone, an
 <br>
 
 ## 📜 License
-This project is open source and available under the [`MIT License`](LICENSE).
+This project is open source and available under the [`MIT License`](LICENSE.md).
